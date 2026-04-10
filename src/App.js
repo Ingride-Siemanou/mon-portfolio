@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Realisations from "./components/Realisations";
-import Projects from "./components/Projects"; // <-- IMPORTANT
+import Projects from "./components/Projects"; // si tu l’utilises
+import Technologies from "./components/Technologies"; // <-- ligne ajoutée
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       {/* Section Réalisations */}
       <Realisations />
 
+      {/* Section Technologies */}
+      <Technologies />
     </>
   );
 }
