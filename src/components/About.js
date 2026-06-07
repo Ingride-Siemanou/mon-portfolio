@@ -1,17 +1,17 @@
 import React from "react";
-import aboutPhoto from "../images/about.jpeg"; // ta photo
+import aboutPhoto from "../images/about.jpeg";
 
 function About() {
   return (
     <section className="about-section" id="about">
       <div className="about-container">
 
-        {/* Photo à gauche */}
+        {/* Photo */}
         <div className="about-left">
           <img src={aboutPhoto} alt="Ingride" />
         </div>
 
-        {/* Texte à droite */}
+        {/* Texte */}
         <div className="about-right">
           <h2>À propos de moi</h2>
 
@@ -26,7 +26,11 @@ function About() {
             à la création de solutions numériques innovantes.
           </p>
 
-          <button className="cv-btn">Télécharger mon CV</button>
+          {/* CV DOWNLOAD */}
+          <a href="/cv.pdf" download="CV_Ingride.pdf">
+            <button className="cv-btn">Télécharger mon CV</button>
+          </a>
+
         </div>
 
       </div>
