@@ -12,13 +12,10 @@ function Footer() {
       </p>
 
       <div className="footer-icons">
-
-        {/* Mail */}
         <a href="mailto:ingridsiemanou@gmail.com">
           <FaEnvelope />
         </a>
 
-        {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/christiane-ingride-djamou-siemanou-885939393/"
           target="_blank"
@@ -27,7 +24,6 @@ function Footer() {
           <FaLinkedin />
         </a>
 
-        {/* GitHub */}
         <a
           href="https://github.com/Ingride-Siemanou"
           target="_blank"
@@ -36,11 +32,9 @@ function Footer() {
           <FaGithub />
         </a>
 
-        {/* Téléphone */}
         <a href="tel:+33607322607">
           <FaPhone />
         </a>
-
       </div>
 
       <p className="footer-copy">

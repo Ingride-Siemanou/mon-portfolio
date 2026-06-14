@@ -9,13 +9,10 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-
-      {/* LOGO */}
       <a href="#hero" className="logo">
         <img src={logoIs} alt="Logo" className="navbar-logo" />
       </a>
 
-      {/* DESKTOP MENU */}
       <ul className="nav-links">
         <li><a href="#hero">Accueil</a></li>
         <li><a href="#about">À propos</a></li>
@@ -25,12 +22,13 @@ function Navbar() {
         <li><a href="#contact" className="contact-btn">Contact</a></li>
       </ul>
 
-      {/* BURGER (MOBILE) */}
-      <div className="burger" onClick={() => setMenuOpen(!menuOpen)}>
+      <div
+        className="burger"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
         <FaBars />
       </div>
 
-      {/* MENU MOBILE */}
       {menuOpen && (
         <div className="mobile-menu">
           <a href="#hero" onClick={closeMenu}>Accueil</a>
@@ -44,7 +42,6 @@ function Navbar() {
           </a>
         </div>
       )}
-
     </nav>
   );
 }

@@ -6,12 +6,10 @@ function About() {
     <section className="about-section" id="about">
       <div className="about-container">
 
-        {/* Photo */}
         <div className="about-left">
           <img src={aboutPhoto} alt="Ingride" />
         </div>
 
-        {/* Texte */}
         <div className="about-right">
           <h2>À propos de moi</h2>
 
@@ -26,7 +24,6 @@ function About() {
             à la création de solutions numériques innovantes.
           </p>
 
-          {/* CV DOWNLOAD */}
           <a href="/cv.pdf" download="CV_Ingride.pdf">
             <button className="cv-btn">Télécharger mon CV</button>
           </a>

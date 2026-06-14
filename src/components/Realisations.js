@@ -74,7 +74,7 @@ const projectsData = [
 
   {
     id: 7,
-    title: "Analyse UX/UI - Rebecca Les Jolies Fleurs ",
+    title: "Analyse UX/UI - Rebecca Les Jolies Fleurs",
     category: "Stratégie & Communication",
     image: rebeccaImg,
     description:
@@ -94,7 +94,7 @@ const projectsData = [
 
   {
     id: 9,
-    title: "Refonte site Wix - Rebecca les jolies fleurs ",
+    title: "Refonte site Wix - Rebecca les jolies fleurs",
     category: "Développement web",
     image: rebeccaImg,
     description:
@@ -123,8 +123,6 @@ function Realisations() {
 
   return (
     <section className="realisations-section" id="realisations">
-
-      {/* INTRO */}
       <div className="realisations-intro">
         <h2>Mes réalisations</h2>
 
@@ -135,9 +133,7 @@ function Realisations() {
         </p>
       </div>
 
-      {/* STATS */}
       <div className="realisations-stats">
-
         <div className="stat-block">
           <FaCheckCircle size={40} color="#e67e22" />
           <h3>9</h3>
@@ -155,10 +151,8 @@ function Realisations() {
           <h3>+++</h3>
           <p>Encouragements</p>
         </div>
-
       </div>
 
-      {/* FILTRES */}
       <div className="projects-buttons">
         {categories.map((cat) => (
           <button
@@ -171,7 +165,6 @@ function Realisations() {
         ))}
       </div>
 
-      {/* PROJETS */}
       <div className="projects-container">
         {filteredProjects.map((project) => (
           <a
@@ -189,7 +182,6 @@ function Realisations() {
           </a>
         ))}
       </div>
-
     </section>
   );
 }

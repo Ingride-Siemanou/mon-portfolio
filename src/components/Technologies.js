@@ -1,6 +1,5 @@
 import React from "react";
 
-// Logos (assurez-vous que tous les fichiers .webp sont dans src/images/)
 import htmlLogo from "../images/html.webp";
 import cssLogo from "../images/css.webp";
 import jsLogo from "../images/javascript.webp";
@@ -12,7 +11,7 @@ import figmaLogo from "../images/figma.webp";
 import canvaLogo from "../images/canva.webp";
 import photoshopLogo from "../images/photoshop.webp";
 import illustratorLogo from "../images/illustrator.webp";
-import indesignLogo from "../images/indesign.webp"; // <-- import InDesign
+import indesignLogo from "../images/indesign.webp";
 import trelloLogo from "../images/trello.webp";
 import lightroomLogo from "../images/lightroom.webp";
 import githubLogo from "../images/github.webp";
@@ -34,7 +33,7 @@ const techs = [
   { name: "Canva", logo: canvaLogo },
   { name: "Photoshop", logo: photoshopLogo },
   { name: "Illustrator", logo: illustratorLogo },
-  { name: "InDesign", logo: indesignLogo }, // <-- Ajout
+  { name: "InDesign", logo: indesignLogo },
   { name: "Trello", logo: trelloLogo },
   { name: "Lightroom", logo: lightroomLogo },
   { name: "GitHub", logo: githubLogo },
@@ -42,7 +41,7 @@ const techs = [
   { name: "Wix", logo: wixLogo },
   { name: "SEO", logo: seoLogo },
   { name: "VS Code", logo: vscodeLogo },
-  { name: "Adobe XD", logo: adobeXdLogo },
+  { name: "Adobe XD", logo: adobeXdLogo }
 ];
 
 function Technologies() {

@@ -1,6 +1,5 @@
 import React from "react";
 
-// Logos (TES images)
 import rljfLogo from "../images/rljf.jpeg";
 import sicLogo from "../images/sic.png";
 import nwsLogo from "../images/nws.png";
@@ -8,8 +7,6 @@ import nwsLogo from "../images/nws.png";
 function Parcours() {
   return (
     <section className="parcours-section" id="parcours">
-
-      {/* TITRE + DESCRIPTION */}
       <div className="parcours-header">
         <h2>Mon parcours professionnel</h2>
 
@@ -21,10 +18,8 @@ function Parcours() {
         </p>
       </div>
 
-      {/* TIMELINE */}
       <div className="timeline">
 
-        {/* RLJF */}
         <div className="timeline-item">
           <span className="timeline-date">Avril 2026 – Juin 2026</span>
 
@@ -72,7 +67,6 @@ function Parcours() {
           </div>
         </div>
 
-        {/* NWS */}
         <div className="timeline-item">
           <span className="timeline-date">2025 – 2026</span>
 
@@ -110,13 +104,11 @@ function Parcours() {
           </div>
         </div>
 
-        {/* SODISCO */}
         <div className="timeline-item">
           <span className="timeline-date">Juin 2025 – Août 2025</span>
 
           <div className="timeline-content">
             <div className="company">
-
               <h3>
                 STAGE – SOCIÉTÉ DE GAZ
                 <br />
@@ -153,13 +145,11 @@ function Parcours() {
           </div>
         </div>
 
-        {/* SIC IMMOBILIÈRE */}
         <div className="timeline-item">
           <span className="timeline-date">Août 2024 – Octobre 2024</span>
 
           <div className="timeline-content">
             <div className="company">
-              {/* même logo + même taille */}
               <img src={sicLogo} alt="SIC" className="company-logo" />
 
               <h3>
