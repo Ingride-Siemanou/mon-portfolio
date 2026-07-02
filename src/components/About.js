@@ -21,7 +21,7 @@ function About() {
 
           <p>
             Mon objectif est de devenir cheffe de projet digital et de participer
-            à la création de solutions numériques innovantes.
+            à la création de solutions numériques innovantes.?
           </p>
 
           <a href="/cv.pdf" download="CV_Ingride.pdf">
