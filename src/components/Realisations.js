@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaCheckCircle, FaThumbsUp, FaRegSmile } from "react-icons/fa";
 
 import portfolioReact from "../images/portfolio-react.png";
-import ecommerceWP from "../images/ecommerce-wp.png";
 import auditComm from "../images/audit-communication.png";
 import graphisme from "../images/graphisme.png";
 
