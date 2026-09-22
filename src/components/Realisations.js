@@ -10,7 +10,7 @@ import styleWoof from "../images/stylewoof.png";
 import mimimosaImg from "../images/mimimosa.png";
 import rebeccaImg from "../images/rebecca.png";
 import nutritionImg from "../images/nutrition.png";
-
+import invity from "../images/invity.png";
 const projectsData = [
   {
     id: 1,
@@ -23,13 +23,14 @@ const projectsData = [
   },
 
   {
-    id: 2,
-    title: "Site e-commerce WordPress",
-    category: "Développement web",
-    image: ecommerceWP,
-    description:
-      "Site e-commerce réalisé sur WordPress avec Elementor.",
-    link: "/pdf/ecommerce.pdf",
+  id: 2,
+  title: "Invity – Gestion d’invitations",
+  category: "Développement web",
+  image: invity,
+  description:
+    "Application web conçue et déployée pour gérer des événements, envoyer des invitations et exporter les listes d’invités en PDF.",
+  link: "https://invity-delta.vercel.app/",
+
   },
 
   {
